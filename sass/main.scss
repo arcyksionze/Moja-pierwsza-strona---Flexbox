@@ -146,6 +146,10 @@ body {
 	}
 
 	.header {
-		background-image: $blue-gradient, url(../img/header-big.jpg) ;
+		background-image: $blue-gradient, url(../img/header-big.jpg);
+
+		&__heading {
+			font-size: 10rem;
+		}
 	}
 }
