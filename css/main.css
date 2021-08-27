@@ -344,7 +344,7 @@ body {
 
 .hero-img__title {
   font-family: 'Dancing Srcipt', cursive;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-size: 4.8rem;
 }
 
@@ -399,6 +399,16 @@ body {
   .dreams__text {
     font-size: 1.8rem;
   }
+  .hero-img {
+    padding: 30rem 2em;
+  }
+  .hero-img hr {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .hero-img__text {
+    font-size: 2.2rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -436,6 +446,17 @@ body {
   }
   .dreams__text {
     font-size: 2.2rem;
+  }
+  .hero-img {
+    padding: 40rem 2em;
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url(../img/polynesia_1920.jpg);
+  }
+  .hero-img__title {
+    font-size: 7.2rem;
+  }
+  .hero-img hr {
+    width: 60%;
+    min-width: 900px;
   }
 }
 /*# sourceMappingURL=main.css.map */
