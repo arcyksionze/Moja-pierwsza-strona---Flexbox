@@ -517,9 +517,9 @@ body {
 	&__box-link {
 		color: $pure-white;
 		font-size: 3.6rem;
-		padding: 0 .3em;
+		padding: 0 0.3em;
 		text-decoration: none;
-		transition: color .3s;
+		transition: color 0.3s;
 
 		&:first-child {
 			padding-left: 0;
@@ -648,6 +648,41 @@ body {
 		&__card {
 			margin: 1em;
 			width: 45%;
+		}
+	}
+	.footer {
+		&__boxes {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__box-desktop {
+			display: block;
+		}
+
+		&__box {
+			margin: 0 2em;
+			width: 25%;
+
+			&:first-child {
+				width: 50%;
+			}
+		}
+
+		&__box-title {
+			font-size: 2.4rem;
+		}
+
+		&__box-list {
+			list-style: none;
+		}
+
+		&__box-list-item {
+			margin-bottom: 1em;
+			a {
+				color: $light-white;
+				text-decoration: none;
+			}
 		}
 	}
 }
